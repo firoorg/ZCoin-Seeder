@@ -403,7 +403,7 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"amsterdam.zcoin.io", "australia.zcoin.io", "chicago.zcoin.io", "london.zcoin.io", "frankfurt.zcoin.io", "newjersey.zcoin.io", "sanfrancisco.zcoin.io", "tokyo.zcoin.io", "singapore.zcoin.io", ""};
+static const string mainnet_seeds[] = {"zcoin-dnsseed.moranilabs.org", "amsterdam.zcoin.io", "australia.zcoin.io", "chicago.zcoin.io", "london.zcoin.io", "frankfurt.zcoin.io", "newjersey.zcoin.io", "sanfrancisco.zcoin.io", "tokyo.zcoin.io", "singapore.zcoin.io", ""};
 static const string testnet_seeds[] = {"sigma1.zcoin.io",
                                        "sigma2.zcoin.io",
                                        ""};
