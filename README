@@ -1,8 +1,10 @@
-bitcoin-seeder
+ZCoin-seeder
 ==============
 
-Bitcoin-seeder is a crawler for the Bitcoin network, which exposes a list
+ZCoin-seeder is a crawler for the ZCoin network, which exposes a list
 of reliable nodes via a built-in DNS server.
+
+It is forked from [Sipa's Bitcoin Seeder](https://github.com/sipa/bitcoin-seeder)
 
 Features:
 * regularly revisits known nodes to check their availability
