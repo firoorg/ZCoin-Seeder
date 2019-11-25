@@ -243,11 +243,11 @@ public:
         vRecv.resize(nPos + nBytes);
         memcpy(&vRecv[nPos], pchBuf, nBytes);
       } else if (nBytes == 0) {
-        // printf("%s: BAD (connection closed prematurely)\n", ToString(you).c_str());
+         printf("%s: BAD (connection closed prematurely)\n", ToString(you).c_str());
         res = false;
         break;
       } else {
-        // printf("%s: BAD (connection error)\n", ToString(you).c_str());
+         printf("%s: BAD (connection error)\n", ToString(you).c_str());
         res = false;
         break;
       }
@@ -296,7 +296,6 @@ bool TestNode(const CService &cip, int &ban, int &clientV, std::string &clientSV
     return false;
   }
 }
-
 /*
 int main(void) {
   CService ip("japan.zcoin.io", 8168, true);
@@ -307,4 +306,3 @@ int main(void) {
   printf("ret=%s ban=%i vAddr.size()=%i\n", ret ? "good" : "bad", ban, (int)vAddr.size());
 }
 */
-
