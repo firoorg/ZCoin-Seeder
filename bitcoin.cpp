@@ -243,11 +243,11 @@ public:
         vRecv.resize(nPos + nBytes);
         memcpy(&vRecv[nPos], pchBuf, nBytes);
       } else if (nBytes == 0) {
-        // printf("%s: BAD (connection closed prematurely)\n", ToString(you).c_str());
+         printf("%s: BAD (connection closed prematurely)\n", ToString(you).c_str());
         res = false;
         break;
       } else {
-        // printf("%s: BAD (connection error)\n", ToString(you).c_str());
+         printf("%s: BAD (connection error)\n", ToString(you).c_str());
         res = false;
         break;
       }
